@@ -1,0 +1,30 @@
+# Generated files
+build
+dist
+
+### Emacs ##
+*~
+\#*\#
+.\#*
+
+# NodeJS dependencies
+node_modules/*
+
+# ES-Lint
+.eslintcache
+
+# Solidity-Coverage
+allFiredEvents
+scTopics
+scDebugLog
+coverage.json
+coverage/
+coverageEnv/
+*.env
+.env
+.env*
+.idea
+.idea/*
+.openzeppelin
+.openzeppelin/*
+*Flattern.sol
