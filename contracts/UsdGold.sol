@@ -342,13 +342,14 @@ contract UsdGold is ERC20Detailed, Ownable {
 
         rebasePaused = false;
         tokenPaused = false;
+        feePaused = false;
 
         _totalSupply = INITIAL_FRAGMENTS_SUPPLY;
         _gonBalances[owner_] = TOTAL_GONS;
         _gonsPerFragment = TOTAL_GONS.div(_totalSupply);
 
 
-        _txFee = 10;
+        _txFee = 40;
         _rewardPercentage = 10;
         _rewardAddress = rewardAddress_;
 
